@@ -1,0 +1,5 @@
+ call winhttpjs.bat "http://requestb.in/xxxxxx" -method POST -header hdrs.txt -reportfile reportfile2.txt
+   
+  call winhttpjs.bat "http://requestb.in/xxxxxx" -method GET -header hdrs.txt -reportfile reportfile3.txt -saveTo c:\somezip.zip 
+
+  call winhttpjs.bat "http://requestb.in/xxxxxx" -method POST -header hdrs.txt -reportfile reportfile2.txt -saveTo responsefile2 -ua "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36"  -body-file some.json
